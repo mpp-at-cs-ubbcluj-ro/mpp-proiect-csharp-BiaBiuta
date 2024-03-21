@@ -1,3 +1,5 @@
+using System.Text.RegularExpressions;
+
 namespace ConsoleApp3.domain.validators;
 
 public class ChildValidator:IValidator<Child>
@@ -10,5 +12,8 @@ public class ChildValidator:IValidator<Child>
         if(e.Age>15){
             throw new ValidationException("There is not an ageCategory for this age");
         }
+        if(!Regex.IsMatch(e.Name,"^[a-z].*")){
+                    throw  new ValidationException("the name must first with capslock");
+                }
     }
 }

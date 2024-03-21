@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\bianc\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)sqlite3.native\3.45.2\build\SQLite3.Native.props" Condition="Exists('$(NuGetPackageRoot)sqlite3.native\3.45.2\build\SQLite3.Native.props')" />
+  </ImportGroup>
 </Project>

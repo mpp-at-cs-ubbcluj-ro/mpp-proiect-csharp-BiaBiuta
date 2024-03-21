@@ -1,8 +1,34 @@
 {
   "version": 2,
-  "dgSpecHash": "YIVTtkRHzTz26g8wjFfNTPMQlgEhi2YXQN+BQIweopNm/eUjLHTzVwf45mqMFzeAaLcG7XmHbZpPIBt2xr4ggA==",
+  "dgSpecHash": "QjWf98JCIDsLlGcuYM8bWdi0RaFzKN+9CYiyYuhVzdYhONfcNwEkV8ooLDSX9RLrCyQ6I0gkQsWS4frYTbNaVg==",
   "success": true,
   "projectFilePath": "C:\\Users\\bianc\\RiderProjects\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\bianc\\.nuget\\packages\\log4net\\2.0.16\\log4net.2.0.16.nupkg.sha512",
+    "C:\\Users\\bianc\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0-preview.2.24128.5\\microsoft.extensions.configuration.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "C:\\Users\\bianc\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0-preview.2.24128.5\\microsoft.extensions.configuration.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "C:\\Users\\bianc\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0-preview.2.24128.5\\microsoft.extensions.primitives.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "C:\\Users\\bianc\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\bianc\\.nuget\\packages\\mono.data.sqlite\\1.0.61\\mono.data.sqlite.1.0.61.nupkg.sha512",
+    "C:\\Users\\bianc\\.nuget\\packages\\mono.data.sqlite.core\\1.0.61.1\\mono.data.sqlite.core.1.0.61.1.nupkg.sha512",
+    "C:\\Users\\bianc\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",
+    "C:\\Users\\bianc\\.nuget\\packages\\sqlite3.native\\3.45.2\\sqlite3.native.3.45.2.nupkg.sha512",
+    "C:\\Users\\bianc\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\bianc\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\bianc\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\bianc\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\bianc\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Mono.Data.Sqlite 1.0.61' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Mono.Data.Sqlite",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

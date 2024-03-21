@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/ConsoleApp3/repository/ChildRepository.cs" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ConsoleApp3/repository/OrganizingRepository.cs" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ConsoleApp3/repository/RegistrationRepository.cs" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ConsoleApp3/repository/SampleRepository.cs" dialect="GenericSQL" />
+  </component>
+</project>

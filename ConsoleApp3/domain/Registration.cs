@@ -1,7 +1,8 @@
 namespace ConsoleApp3.domain;
 
-public class Registration(Child child, Sample sample)
+public class Registration(Child child, Sample sample):Entity<int>
 {
-    private Child Child { get; set; } = child;
-    private Sample Sample { get; set; } = sample;
+    public Child Child { get; set; } = child;
+    public Sample Sample { get; set; } = sample;
+    
 }

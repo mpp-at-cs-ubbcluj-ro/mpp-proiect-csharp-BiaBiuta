@@ -2,5 +2,5 @@ namespace ConsoleApp3.domain;
 
 public class Entity<ID>
 {
-    public ID id { get; set; }
+    public ID Id { get; set; }
 }
